@@ -1,61 +1,85 @@
-# Task 2: Stopwatch Web Application
+# Stopwatch Web Application
 
-This project is a fully functional stopwatch web application built using fundamental web technologies. The primary goal was to create an interactive and user-friendly tool to measure time intervals with precision, including the ability to record and display lap times.
+![GitHub language count](https://img.shields.io/github/languages/count/your-username/your-repo-name?style=for-the-badge)
+![GitHub top language](https://img.shields.io/github/languages/top/your-username/your-repo-name?style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/your-username/your-repo-name?style=for-the-badge)
+![License](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)
 
-## Features
+A fully functional, single-file stopwatch web application built with fundamental web technologies. The primary goal was to create an interactive, user-friendly, and visually appealing tool to measure time intervals with precision, including the ability to record and display detailed lap times.
 
-- **Start/Stop Functionality**: Easily start and stop the stopwatch with a single button that toggles its state.
-- **Pause/Resume**: The same button allows users to pause the timer and resume it from the exact moment it was stopped.
-- **Reset**: A dedicated reset button clears the timer and all recorded laps, returning the stopwatch to its initial state (00:00:00).
-- **Lap Timer**: Users can record an unlimited number of lap times. Each lap is captured and displayed in a clean, scrollable list.
-- **Accurate Time Display**: The timer displays hours, minutes, seconds, and milliseconds for precise time tracking.
-- **Clean & Responsive UI**: The interface is designed to be intuitive and works well on various screen sizes.
-
-## Demo
-
-To see the stopwatch in action, open the `index.html` file in any modern web browser.
-
-![Project Screenshot](https://i.imgur.com/8aJgE7V.png)
-*(Note: This is a generic placeholder image. You can replace it with a screenshot of the actual project.)*
-
-## Technologies Used
-
-- **HTML5**: Provides the basic structure of the application, including the display area, control buttons, and the list for lap times.
-- **CSS3**: Used for styling the application to create a clean, modern, and user-friendly interface. This includes button styles, layout, and typography.
-- **JavaScript (ES6)**: Powers all the core logic of the stopwatch. This includes:
-    - Handling time calculations and updates.
-    - Managing the start, pause, and reset states.
-    - Implementing the lap recording functionality.
-    - Dynamically updating the DOM to display the time and lap records.
-
-## Setup and Installation
-
-To run this project locally, follow these simple steps:
-
-1.  **Download the files**: You will need all three project files:
-    - `index.html`
-    - `style.css`
-    - `script.js`
-
-2.  **Place files together**: Ensure all three files are in the same folder.
-
-    ```
-    /stopwatch-project
-    ├── index.html
-    ├── style.css
-    └── script.js
-    ```
-
-3.  **Open in Browser**: Simply open the `index.html` file in a web browser like Google Chrome, Firefox, or Safari.
-
-No external libraries or build tools are needed to run this application.
-
-## File Structure
-
-- **`index.html`**: This file sets up the main content and layout of the stopwatch, including the timer display, the control buttons (Start/Pause, Reset, Lap), and the area where lap times will be listed.
-- **`style.css`**: This file contains all the styling rules to make the application look good. It defines the colors, fonts, spacing, and responsive behavior of the UI elements.
-- **`script.js`**: This is the heart of the application. It contains all the JavaScript code to make the stopwatch work, including functions to manage the timer, handle button clicks, and update the display.
+This project was created as part of the web development tasks from **Prodigy InfoTech**.
 
 ---
 
-This project was created based on the requirements provided by **Prodigy InfoTech**.
+## ✨ Features
+
+- **Intuitive Controls**: Separate, clearly labeled buttons for Start, Pause, Lap, and Reset. Buttons are dynamically enabled or disabled to guide the user and prevent errors.
+- **Accurate Time Display**: The timer displays minutes, seconds, and centiseconds for precise time tracking, rendered in a classic digital font.
+- **Detailed Lap Tracking**: Users can record an unlimited number of laps. Each recorded lap displays the lap number, the duration of that specific lap, and the total elapsed time.
+- **Clean & Responsive UI**: The interface features a modern design with gradients, shadows, and hover effects. It is fully responsive and works well on desktops, tablets, and mobile devices.
+- **SEO and Social Media Ready**: Includes essential meta tags for Search Engine Optimization (SEO) and social media sharing (Open Graph and Twitter Cards).
+
+---
+
+## 🚀 Live Demo
+
+A live demo of the application is hosted on GitHub Pages.
+
+**[➡️ View Live Demo](https://your-username.github.io/your-repo-name/)**
+
+### Screenshot
+
+![Stopwatch App Screenshot](https://i.imgur.com/8aJgE7V.png)
+*(Tip: Consider replacing this static screenshot with an animated GIF to better showcase the stopwatch's functionality.)*
+
+---
+
+## 🛠️ Technologies Used
+
+- **HTML5**: Provides the basic structure of the application.
+- **CSS3**: Used for all styling, including layout, gradients, button effects, and responsive design.
+- **JavaScript (ES6)**: Powers all the core logic of the stopwatch, organized into a `Stopwatch` class for better structure and maintainability.
+
+---
+
+## ⚙️ Setup and Installation
+
+This project is self-contained in a single `index.html` file, making it extremely easy to run locally.
+
+1.  **Clone the repository:**
+    ```sh
+    git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+    ```
+2.  **Navigate to the directory:**
+    ```sh
+    cd your-repo-name
+    ```
+3.  **Open in Browser**: Simply open the `index.html` file in your preferred web browser.
+
+No external libraries, build tools, or separate files are needed.
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are welcome! If you have suggestions for improvements, please feel free to fork the repository and submit a pull request. You can also open an issue with the "enhancement" tag.
+
+1.  **Fork** the Project
+2.  Create your **Feature Branch** (`git checkout -b feature/AmazingFeature`)
+3.  **Commit** your Changes (`git commit -m 'Add some AmazingFeature'`)
+4.  **Push** to the Branch (`git push origin feature/AmazingFeature`)
+5.  Open a **Pull Request**
+
+---
+
+## 📄 License
+
+This project is distributed under the MIT License. See `LICENSE.txt` for more information.
+
+---
+
+## 📧 Contact
+
+Your Name - [@your_twitter](https://twitter.com/your_twitter) - email@example.com
+
+Project Link: [https://github.com/your-username/your-repo-name](https://github.com/your-username/your-repo-name)
